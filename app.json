@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "Beesy",
+    "scheme": "Beesy",
     "slug": "Beesy",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,7 +22,11 @@
       }
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
